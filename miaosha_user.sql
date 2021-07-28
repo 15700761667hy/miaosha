@@ -1,0 +1,1 @@
+INSERT INTO `miaosha_user` (`id`, `nickname`, `password`, `salt`, `head`, `register_date`, `last_login_date`, `login_count`) VALUES (15700761667, 'heyuan', 'b7797cce01b4b131b433b6acf4add449', '1a2b3c4d', NULL, '2021-07-14 12:40:34', '2021-07-27 12:40:41', 1);

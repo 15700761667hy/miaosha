@@ -1,0 +1,1 @@
+INSERT INTO `order_info` (`id`, `user_id`, `goods_id`, `delivery_addr_id`, `goods_name`, `goods_count`, `goods_price`, `order_channel`, `status`, `create_date`, `pay_date`) VALUES (29, 15700761667, 2, NULL, 'huawei', 1, 0.01, 1, 0, '2021-07-28 14:25:25', NULL);

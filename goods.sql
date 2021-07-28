@@ -1,0 +1,3 @@
+INSERT INTO `goods` (`id`, `goods_name`, `goods_title`, `goods_img`, `goods_detail`, `goods_price`, `goods_stock`) VALUES (1, 'iphoneX', 'Apple iPhone 64GB 银色 移动联通电信5G手机', '/img/iphonex.png', 'Apple iPhone X(A1865)64GB 银色 移动联通电信5G ', 6745.00, 12);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_title`, `goods_img`, `goods_detail`, `goods_price`, `goods_stock`) VALUES (2, 'huawei', 'Huawei phone 荣耀 128GB 黑色 移动联通电信5G ', '/img/meta10.png', 'Huawei phone 荣耀 128GB 黑色 移动联通电信5G ', 5088.00, 15);
+INSERT INTO `goods` (`id`, `goods_name`, `goods_title`, `goods_img`, `goods_detail`, `goods_price`, `goods_stock`) VALUES (3, 'mi6', 'Huawei ', '/img/mi6.png', 'Huawei ', 5656.00, 12);
