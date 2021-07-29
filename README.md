@@ -22,6 +22,11 @@
 2.4 分布式session</br>
     使用redis缓存客户端的信息，生成token,放在cookie中。</br>
     客户端每次访问时携带cookie,向服务端发起请求。服务端就能从cookie中找出用户的信息了。</br>
+    做法是：在登录密码比较完了以后，生成一个Token，调用addCookie(),将Token与用户的信息放入Redis缓存中。
+    再设置cookie的有效期，生成cookie。将cookie返回给response,返回给客户端。
+    每次登陆都会生成一个新的Token。
+    但是客户端在每次访问页面的时候，就不再进行密码的比较，而是请求中携带着cookie信息，
+    getByToken():取出cookie中的Token,然后去redis中查询用户信息。在这里访问的时候，会进行自动的有效期延长。</br>
 三、实现秒杀功能</br>
  主要内容</br>
  3.1 数据库的设计</br>
